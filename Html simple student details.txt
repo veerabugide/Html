@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Information</title>
+    <style>
+      body {
+        background-image: url("laptop.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 300%;
+      }
+      form {
+        text-align: center;
+        color: rgb(0, 41, 128);
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center; color: rgb(44, 3, 3)">Student Details</h1>
+    <form action="/action_page.php.txt">
+      <label>User ID:</label>
+      <input type="text" /><br /><br />
+      <label>First Name:</label>
+      <input type="text" /><br /><br />
+      <label>Last Name:</label>
+      <input type="text" /><br /><br />
+      <label>Age:</label>
+      <input type="number" /><br /><br />
+      <input type="checkbox" />
+      <label>Male</label>
+      <input type="checkbox" />
+      <label>FeMale</label><br /><br />
+      <label>Slect Branch</label>
+      <select>
+        <option>CSE</option>
+        <option>ISE</option>
+        <option>ECE</option></select
+      ><br /><br />
+      <input type="button" value="submit" />
+    </form>
+  </body>
+</html>
